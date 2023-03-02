@@ -6,6 +6,9 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: '0.0.0.0',
-    base: '/Scout/',
+    
   }
+  export default {
+  base: '/Scout/',
+}
 })
